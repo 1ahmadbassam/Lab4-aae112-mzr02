@@ -1,7 +1,5 @@
 # School Management System (SMS)
 
-# School Management System (SMS)
-
 ## Project Description
 
 The School Management System (SMS) is a robust desktop application designed to manage students, instructors, and courses. It is built with a clean, decoupled architecture that separates the core business logic (models), data persistence, and user interface into distinct layers.

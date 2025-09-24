@@ -1,0 +1,88 @@
+Folder PATH listing
+Volume serial number is 64C2-D484
+C:.
+|   .gitignore
+|   LICENSE
+|   out.txt
+|   README.md
+|   requirements.txt
+|   
++---docs
+|   |   conf.py
+|   |   config.rst
+|   |   index.rst
+|   |   main.rst
+|   |   make.bat
+|   |   Makefile
+|   |   modules.rst
+|   |   sms.data.db.rst
+|   |   sms.data.dm.rst
+|   |   sms.data.rst
+|   |   sms.db
+|   |   sms.gui.rst
+|   |   sms.gui._qt.rst
+|   |   sms.gui._tk.rst
+|   |   sms.models.rst
+|   |   sms.rst
+|   |   sms.utils.rst
+|   |   
+|   +---_static
+|   \---_templates
++---src
+|   |   config.py
+|   |   main.py
+|   |   
+|   \---sms
+|       |   __init__.py
+|       |   
+|       +---data
+|       |   |   data_manager.py
+|       |   |   __init__.py
+|       |   |   
+|       |   +---db
+|       |   |       contract.py
+|       |   |       manager.py
+|       |   |       __init__.py
+|       |   |       
+|       |   \---dm
+|       |           database.py
+|       |           file.py
+|       |           interface.py
+|       |           memory.py
+|       |           __init__.py
+|       |           
+|       +---gui
+|       |   |   tk.py
+|       |   |   __init__.py
+|       |   |   
+|       |   \---_tk
+|       |           constants.py
+|       |           course_frame.py
+|       |           instructor_frame.py
+|       |           student_frame.py
+|       |           tkroot.py
+|       |           __init__.py
+|       |           
+|       +---models
+|       |       course.py
+|       |       instructor.py
+|       |       person.py
+|       |       student.py
+|       |       __init__.py
+|       |       
+|       \---utils
+|               validator.py
+|               __init__.py
+|               
+\---tests
+    |   model_test.py
+    |   
+    \---school_data_output
+        |   school_data.json
+        |   
+        \---csv_data
+                courses.csv
+                enrollments.csv
+                instructors.csv
+                students.csv
+                

@@ -23,9 +23,7 @@ This project emphasizes a flexible data backend, allowing the application to run
     * Export the current database state to JSON or CSV.
     * Create a complete backup of the SQLite database file.
 
-#### GUI Features (PyQt)
-
-GUI Features (PyQt5)
+#### GUI Features (PyQt5)
 * **Rich, Native Interface:** Built with the powerful PyQt5 framework, providing a professional, responsive, and platform-native look and feel that integrates seamlessly with the user's operating system.
 * **Tabbed Navigation:** A clean QTabWidget interface allows for easy and efficient switching between Student, Instructor, and Course management panels.
 * **Master-Detail Views:** Each management tab features an intuitive master-detail layout, using a robust QTreeWidget to display a list of all records and a detailed form for viewing or editing a selected item.

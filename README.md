@@ -23,6 +23,21 @@ This project emphasizes a flexible data backend, allowing the application to run
     * Export the current database state to JSON or CSV.
     * Create a complete backup of the SQLite database file.
 
+#### GUI Features (PyQt)
+
+GUI Features (PyQt5)
+* **Rich, Native Interface:** Built with the powerful PyQt5 framework, providing a professional, responsive, and platform-native look and feel that integrates seamlessly with the user's operating system.
+* **Tabbed Navigation:** A clean QTabWidget interface allows for easy and efficient switching between Student, Instructor, and Course management panels.
+* **Master-Detail Views:** Each management tab features an intuitive master-detail layout, using a robust QTreeWidget to display a list of all records and a detailed form for viewing or editing a selected item.
+* **Full CRUD Functionality:** The interface provides complete Create, Read, Update, and Delete (CRUD) capabilities for all data models through clearly labeled buttons and forms.
+* **Integrated Search:** Each management tab includes a search bar to instantly filter records by name or ID, allowing users to find information quickly.
+* **Interactive Forms:** Forms for adding and editing records provide clear, real-time feedback to the user through informative QMessageBox pop-ups and a persistent QStatusBar.
+* **Relationship Management:** The UI allows for managing complex data relationships, such as registering students for courses and viewing all courses assigned to a specific instructor.
+* **Data Management via File Menu:** A comprehensive QMenuBar provides full data import/export capabilities, allowing users to:
+    * Import data from JSON or CSV files into the database.
+    * Export the current database state to JSON or CSV formats.
+    * Create a complete backup of the SQLite database file using QFileDialog.
+
 #### Backend & Data Layer Features
 * **Object-Oriented Design:** Core entities like `Student`, `Instructor`, and `Course` are modeled as Python classes with well-defined attributes and methods.
 * **Data Validation:** A dedicated validation module ensures data integrity for inputs like names, IDs, and email addresses.
@@ -43,6 +58,7 @@ The project is organized into a standard Python package structure to ensure main
 |   |   |   |-- dm/        # High-level data manager interfaces (abstract and concrete)
 |   |   |-- gui/		  # GUI implementations
 |	|	|	|-- _tk/	  # Tkinter code (frames, windows, etc.)
+|	|	|	|-- _qt/	  # PyQt code (frames, windows, etc.)
 |   |   |-- models/       # Core data models (Person, Student, etc.) 
 |   |   |-- utils/        # Utility modules like the validator 
 |   |-- main.py           # Main entry point to run the application

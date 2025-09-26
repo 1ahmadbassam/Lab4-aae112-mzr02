@@ -104,3 +104,5 @@ The primary way to run the application is through the main entry point.
     ```bash
     python src/sms/data/db/manager.py
     ```
+
+To change between UIs, edit the `src/config.py` file specifying if the QT_UI is `true` or `false`. If `false`, the Tkinter UI is used instead when invoking the app with `src/main.py`.
